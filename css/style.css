@@ -2,6 +2,10 @@ html,
 body {
     font-family: "Oswald", sans-serif;
     height: 100%;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar{
+    display: none;
 }
 .wrapper {
     max-width: 100%;
